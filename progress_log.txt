@@ -1,0 +1,49 @@
+# Task Progress Log
+# This file will record your calculator project progress.
+
+- 2025-08-14: Started building the calculator project.
+- 2025-08-14: Added basic calculator code to main.py.
+
+
+--- GUI Calculator Project Documentation ---
+
+1. What is Python?
+	- Python is a popular programming language that is easy to learn and great for beginners.
+
+2. What is tkinter?
+	- tkinter is a built-in Python library for making windows, buttons, and other GUI elements.
+	- You do not need to install anything extra to use tkinter.
+
+3. How does the calculator work?
+	- The calculator opens a window with buttons for numbers and operations.
+	- You click buttons to enter numbers and choose operations (+, -, *, /).
+	- Press '=' to see the result, or 'C' to clear the entry box.
+
+4. How to run the calculator?
+	- Open your terminal (PowerShell).
+	- Type: python main.py
+	- The calculator window will appear.
+
+5. What does each part of the code do?
+	- import tkinter as tk: Loads the GUI library.
+	- root = tk.Tk(): Creates the main window.
+	- entry = tk.Entry(...): Adds a box to show numbers/results.
+	- button_click(value): Adds the clicked number/operator to the entry box.
+	- button_clear(): Clears the entry box.
+	- button_equal(): Calculates the result and shows it.
+	- Buttons: Each button is created and placed in the window grid.
+	- root.mainloop(): Starts the GUI and keeps the window open.
+
+6. How to improve the calculator?
+	- You can change colors, fonts, or add more features (like more operations).
+	- You can learn about other GUI libraries for more advanced designs.
+
+7. Common problems and solutions:
+	- If Python is not installed, download it from python.org and add it to PATH.
+	- If the calculator window does not appear, check for errors in the terminal.
+
+8. Next steps:
+	- Try changing the code to customize your calculator.
+	- Learn more about Python and tkinter online (YouTube, tutorials, docs).
+
+--- End of Documentation ---
